@@ -9,8 +9,25 @@ public class Orc implements Creature {
 
 	private Weapon weapon;
 	
+	public Orc() {
+	}
+
+	//Constructor injection
+//	@Autowired
+//	public Orc(Weapon weapon) {
+//		System.out.println(">> With constructor injection ");
+//		this.weapon = weapon;
+//	}
+
+	public Weapon getWeapon() {
+		return weapon;
+	}
+
+	//Setter injection
+	// define setter method
 	@Autowired
-	public Orc(Weapon weapon) {
+	public void setWeapon(Weapon weapon) {
+		System.out.println(">> With setter injection");
 		this.weapon = weapon;
 	}
 
