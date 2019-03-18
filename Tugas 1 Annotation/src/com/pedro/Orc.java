@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Orc implements Creature {
 
+	@Autowired // --> field injection
 	private Weapon weapon;
 	
 	public Orc() {
@@ -18,6 +19,7 @@ public class Orc implements Creature {
 //		System.out.println(">> With constructor injection ");
 //		this.weapon = weapon;
 //	}
+	//Constructor injection ends here
 
 	public Weapon getWeapon() {
 		return weapon;
@@ -25,11 +27,13 @@ public class Orc implements Creature {
 
 	//Setter injection
 	// define setter method
-	@Autowired
-	public void setWeapon(Weapon weapon) {
-		System.out.println(">> With setter injection");
-		this.weapon = weapon;
-	}
+//	@Autowired
+//	public void setWeapon(Weapon weapon) {
+//		System.out.println(">> With setter injection");
+//		this.weapon = weapon;
+//	}
+	//Setter injection ends here
+
 
 	@Override
 	public void getEat() {
