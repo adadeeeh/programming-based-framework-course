@@ -18,6 +18,9 @@ public class JavaConfigDemo {
 		// call a method to get blacksmith
 		System.out.println(theCreature.getBlacksmith());
 		
+		Elf elfCreature = context.getBean("elf", Elf.class);
+				
+		//System.out.println(elfCreature.getName());
 		// close the context
 		context.close();
 	}
