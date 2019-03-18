@@ -10,13 +10,13 @@ public class AnnotationDemo {
 		
 		// get the bean from spring container
 		// Orc myOrc = context.getBean("normalOrc", Orc.class);
-		Orc myOrc = context.getBean("orc", Orc.class);
+		Creature theCreature = context.getBean("orc", Creature.class);
 
 		// call a method on the bean
-		myOrc.getEat();
+		theCreature.getEat();
 		
 		// call a method to get blacksmith
-		System.out.println(myOrc.getBlacksmith());
+		System.out.println(theCreature.getBlacksmith());
 		
 		// close the context
 		context.close();
