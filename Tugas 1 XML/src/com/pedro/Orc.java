@@ -1,6 +1,7 @@
 package com.pedro;
 
 public class Orc implements Creature {
+	private Sword sword;
 	private String name;
 	private int age;
 	private String speed;
@@ -36,6 +37,14 @@ public class Orc implements Creature {
 
 	public void setSpeed(String speed) {
 		this.speed = speed;
+	}
+
+	public Orc(Sword sword) {
+		this.sword = sword;
+	}
+
+	public Sword getSword() {
+		return sword;
 	}
 
 	@Override
