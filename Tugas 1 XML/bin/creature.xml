@@ -13,10 +13,15 @@
 	</bean>
 	
 	<bean id="orc1" class="com.pedro.Orc">
-		<!-- <property name="name" value="Dovakin"></property>
+		<property name="name" value="Dovakin"></property>
 		<property name="age" value="30"></property>
-		<property name="speed" value="50"></property> -->
-		<constructor-arg ref="orcSword"></constructor-arg>
+		<property name="speed" value="50"></property>
+		
+		<!-- DI with constructor -->
+		<!-- <constructor-arg ref="orcSword"></constructor-arg> -->
+		
+		<!-- DI with setter -->
+		<property name="sword" ref="orcSword"></property>
 	</bean>
 	
 	<!-- <bean id="orc1" class="com.pedro.Orc">

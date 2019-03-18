@@ -47,6 +47,10 @@ public class Orc implements Creature {
 		return sword;
 	}
 
+	public void setSword(Sword sword) {
+		this.sword = sword;
+	}
+
 	@Override
 	public void getEat() {
 		// TODO Auto-generated method stub
