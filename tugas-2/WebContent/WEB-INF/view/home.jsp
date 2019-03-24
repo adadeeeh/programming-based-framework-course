@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Creature Web</title>
+		<title>Hobbit Registration</title>
 	</head>
 	<body>
 		This is the home page
 		<br>
-		<a href="creature"><button type="button">Add Creature</button></a>
+		<a href="hobbit/showForm"><button type="button">Register Hobbit</button></a>
 	</body>
 </html>
