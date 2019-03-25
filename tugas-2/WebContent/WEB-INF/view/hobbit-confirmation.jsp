@@ -23,14 +23,14 @@
 				<div class="col-sm-8 mx-auto">
 	                <div class="form-group row">
                     	<label for="name" class="col-3 col-form-label">Name</label>
-                    	<div class="col-2 col-form-label">
-                    		${hobbit.firstName} ${hobbit.lastName}
+                    	<div class="col-3 col-form-label">
+                    		<p>${hobbit.firstName} ${hobbit.lastName}
                     	</div>
                 	</div>
                 	<div class="form-group row">
                     	<label for="name" class="col-3 col-form-label">Gender</label>
                     	<div class="col-2 col-form-label">
-                    		${hobbit.gender}
+                    		<p>${hobbit.gender}
                     	</div>
                 	</div>
                 	<div class="form-group row">

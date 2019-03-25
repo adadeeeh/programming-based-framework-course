@@ -19,8 +19,21 @@
 		</nav>
 		<div class="jumbotron jumbotron-fluid">
 		  <div class="container">
-		    <h1 class="display-4">Home Page</h1>
-		    <p class="lead">This is the home page.</p>
+		    <h1 class="display-4">E-Registration Hobbit</h1>
+		    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+		    Nullam sodales gravida sapien eget congue. Donec gravida aliquam sollicitudin.
+		    Cras non elit malesuada nisl fermentum laoreet non a tellus.
+		    Morbi in elit viverra dui hendrerit molestie.
+		    Nam purus tortor, placerat quis ex non, aliquet varius risus.
+		    Vivamus quis magna vel libero euismod luctus quis vel ligula.
+		    Pellentesque vitae mauris sit amet neque laoreet congue.
+		    Sed mattis tristique lacinia. Duis pharetra congue vehicula.
+		    Vivamus ante quam, scelerisque et dignissim id, elementum nec enim.
+		    Nulla tristique ipsum ac rutrum imperdiet. Curabitur molestie congue nisl ut blandit.
+		    Nam eget sapien eu lacus blandit tempor.
+		    Nullam accumsan, dui vel placerat efficitur, justo quam consequat elit,
+		    vel dapibus nibh justo eget mi. Duis pulvinar, lectus eu elementum scelerisque,
+		    orci nisi laoreet dui, at tincidunt sapien dolor vitae elit.</p>
     		<a href="hobbit/showForm"><button type="button" class="btn btn-success">Register Hobbit</button></a>
 		  </div>
 		</div>
